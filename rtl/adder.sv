@@ -6,5 +6,5 @@ module adder #(
     output wire [DATA_WIDTH-1:0] out
 );
     assign out = in + ADDEND;
-    
+
 endmodule

@@ -11,7 +11,7 @@ module register_file #(
 
     output logic [DATA_WIDTH-1:0] read_data1,
     output logic [DATA_WIDTH-1:0] read_data2
-    
+
 );
     logic [DATA_WIDTH-1:0] registers [0:31];
 

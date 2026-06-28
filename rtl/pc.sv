@@ -11,5 +11,5 @@ module pc (
             pc_out <= pc_in;
         end
     end
-    
+
 endmodule

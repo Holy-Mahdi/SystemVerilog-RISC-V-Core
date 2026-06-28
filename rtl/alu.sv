@@ -11,7 +11,7 @@ module alu #(
     localparam SHIFT_WIDTH = $clog2(DATA_WIDTH);
 
     always_comb begin
-        alu_result = '0; 
+        alu_result = '0;
 
         case (alu_control)
             4'b0000: alu_result = operand_a + operand_b;       // ADD / ADDI
@@ -29,5 +29,5 @@ module alu #(
 
         zero_flag = (alu_result == '0) ? 1'b1 : 1'b0;
     end
-    
+
 endmodule

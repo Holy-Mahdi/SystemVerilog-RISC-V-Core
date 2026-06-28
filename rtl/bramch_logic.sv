@@ -17,5 +17,5 @@ module branch_logic (
             default: pc_sel = 1'b0; // Default case
         endcase
     end
-    
+
 endmodule

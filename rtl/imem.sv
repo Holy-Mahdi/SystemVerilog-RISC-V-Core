@@ -9,5 +9,5 @@ module imem (
     end
 
     assign inst = mem[addr[11:2]];
-    
+
 endmodule
